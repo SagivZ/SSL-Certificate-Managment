@@ -11,7 +11,6 @@ and verifying the security certificate's expiration date.
 Sagiv Zafrani 
 """
 
-logger = logging.getLogger
 file = open("domains.txt", "r")
 for hostname in file:
     hostname = hostname.replace("\n", "")
