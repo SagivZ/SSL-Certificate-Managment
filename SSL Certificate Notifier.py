@@ -1,7 +1,6 @@
 import datetime
 import socket
 import ssl
-import logging
 
 """
 SSL certificate management which automates the process of testing a web server's ability to accept incoming sessions over a secure channel,
